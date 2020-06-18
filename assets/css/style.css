@@ -1,0 +1,154 @@
+body{
+    font-family: 'Montserrat';
+}
+/* navbar */
+.navbar-brand{
+    font-weight: 600;
+}
+.nav-item{
+    font-size: 14px;
+    font-weight: 600;
+    color: #3c3c3c !important;
+    margin-right: 36px;
+}
+.nav-item.active{
+    color: orangered !important;
+}
+.nav-item:hover{
+    color: orangered !important;
+}
+.navbar{
+    background-color: white !important;
+    color: #3c3c3c !important;
+}
+/* jumbotron */
+.jumbotron{
+    height: 300px;
+    background-image: url('../images/jumbotron/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    margin-top: -50px;
+}
+.text-jumbotron{
+    margin-top: 80px;
+    color: white;
+}
+.text-jumbotron h1{
+    font-weight: 400;
+    font-size: 24px;
+}
+.text-jumbotron p{
+    font-size: 14px;
+}
+/* informasi */
+.informasi h3{
+    font-size: 18px;
+    color: grey !important;   
+}
+
+.text-bold{
+    font-weight: 600 !important;
+}
+
+/* event */
+.wrap-content{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+.produk h5{
+    font-size: 8px;
+    color: grey !important;  
+}
+
+/* about */
+.about p{
+    font-size: 8px;
+    color: grey !important;  
+}
+.about h3{
+    font-size: 12px;
+    color: grey !important;  
+}
+.contact{
+    background-color: #dbdbdb;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.contact h3{
+    font-size: 12px;
+    color: grey;
+    margin-top: 20px;
+}
+
+.contact a{
+    font-size: 10px;
+    color: grey;
+}
+
+footer{
+    margin-top: -30px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 12px;
+    background-color:#dbdbdb;
+    padding: 24px;
+}
+/* custom color */
+.bg-orange{
+    background-color: orangered !important;
+    border: 0;
+}
+
+/* view dekstop */
+@media (min-width: 992px) {
+    .navbar{
+        background-color: transparent !important;
+    }
+    .navbar-brand{
+        color: white !important;
+    }
+    .nav-item{
+        color: white !important;
+    }
+    .jumbotron{
+        height: 400px;
+    }
+    .text-jumbotron h1{
+        font-weight: 400;
+        font-size: 36px;
+    }
+    .text-jumbotron p{
+        font-size: 18px;
+    }
+    .informasi h3{
+        font-size: 24px;
+        color: grey !important;   
+    }
+    .wrap-content{
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .produk h5{
+        font-size: 24px;
+        color: grey !important;  
+    }
+    .about h3{
+        font-size: 24px;
+    } 
+    .about p{
+        font-size: 18px;
+    } 
+    .contact h3{
+        font-size: 24px;
+    }
+    .contact a{
+        font-size: 18px;
+    }
+    footer{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+}
